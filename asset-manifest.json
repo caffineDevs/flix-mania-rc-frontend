@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/flix-mania-rc-frontend/static/css/main.067aecbc.chunk.css",
+    "main.js": "/flix-mania-rc-frontend/static/js/main.57e21d1a.chunk.js",
+    "main.js.map": "/flix-mania-rc-frontend/static/js/main.57e21d1a.chunk.js.map",
+    "runtime-main.js": "/flix-mania-rc-frontend/static/js/runtime-main.d06555d8.js",
+    "runtime-main.js.map": "/flix-mania-rc-frontend/static/js/runtime-main.d06555d8.js.map",
+    "static/css/2.9db01054.chunk.css": "/flix-mania-rc-frontend/static/css/2.9db01054.chunk.css",
+    "static/js/2.4d569abb.chunk.js": "/flix-mania-rc-frontend/static/js/2.4d569abb.chunk.js",
+    "static/js/2.4d569abb.chunk.js.map": "/flix-mania-rc-frontend/static/js/2.4d569abb.chunk.js.map",
+    "static/js/3.613dfd3b.chunk.js": "/flix-mania-rc-frontend/static/js/3.613dfd3b.chunk.js",
+    "static/js/3.613dfd3b.chunk.js.map": "/flix-mania-rc-frontend/static/js/3.613dfd3b.chunk.js.map",
+    "index.html": "/flix-mania-rc-frontend/index.html",
+    "static/css/2.9db01054.chunk.css.map": "/flix-mania-rc-frontend/static/css/2.9db01054.chunk.css.map",
+    "static/css/main.067aecbc.chunk.css.map": "/flix-mania-rc-frontend/static/css/main.067aecbc.chunk.css.map",
+    "static/js/2.4d569abb.chunk.js.LICENSE.txt": "/flix-mania-rc-frontend/static/js/2.4d569abb.chunk.js.LICENSE.txt",
+    "static/media/nxt.a4e65948.svg": "/flix-mania-rc-frontend/static/media/nxt.a4e65948.svg",
+    "static/media/play.63ffeebf.png": "/flix-mania-rc-frontend/static/media/play.63ffeebf.png",
+    "static/media/prev.8a072971.svg": "/flix-mania-rc-frontend/static/media/prev.8a072971.svg",
+    "static/media/slick-theme.css": "/flix-mania-rc-frontend/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d06555d8.js",
+    "static/css/2.9db01054.chunk.css",
+    "static/js/2.4d569abb.chunk.js",
+    "static/css/main.067aecbc.chunk.css",
+    "static/js/main.57e21d1a.chunk.js"
+  ]
+}
