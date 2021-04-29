@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.slick-prev {
+  left: 0px !important;
+  z-index: 1 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.slick-next {
+  right: 0px !important;
+  z-index: 1 !important;
+}
+
+.slick-dots button::before {
+  font-size: 15px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+
+/* global */
+
+body {
+  background-color: #0f171e;
+  color: white;
+}
+
+.title {
+  text-align: left;
+  margin-top: .5rem !important;
+  margin-bottom: .5rem !important;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.flixCard:hover {
+  transform: scale(1.1);
+  transition: .3s;
+  cursor: pointer;
+}
+
+/* .TVandMovies .slick-list:hover {
+  overflow: unset !important;
+  padding: 100px 0 !important;
+  margin: -100px 0 !important;
+} */
+
+/* html {
+  overflow-x: hidden;
+}
+
+
+.TVandMovies .slick-prev.hovered,
+.slick-next.hovered {
+  top: 100% !important;
+  transform: translate(0, -100%) !important;
+} */
+
+
+
+.truncate {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-7 {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+.font-weight-bold {
+  font-weight: 700!important;
+}
+
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo:hover{
+  color: inherit;
 }

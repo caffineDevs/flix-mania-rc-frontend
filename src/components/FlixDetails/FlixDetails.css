@@ -1,0 +1,116 @@
+.episodeCard {
+    background-color: rgba(27, 37, 48, .8);
+    color: #8197a4;
+}
+
+.episodeCard .play-icon {
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.episodeCard .thumbnail {
+    width: fit-content;
+}
+
+.episodeCard .meta-content {
+    min-width: 200px;
+}
+
+.episodeCard .ep-name {
+    color: white;
+}
+
+.season-desc {
+    color: #8197a4;
+}
+
+.season-desc .border {
+    border-color: #8197a4 !important;
+}
+
+.season-desc .heading {
+    font-size: 30px;
+    line-height: 32px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.season-desc .desc {
+    color: white;
+    font-size: 16px;
+    max-width: 60vw;
+}
+
+.season-desc .detailTxt {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.gradient {
+    background: rgb(15, 23, 30);
+    background: linear-gradient(90deg, rgba(15, 23, 30, 1) 43%, rgba(15, 23, 30, 0.9051995798319328) 58%, rgba(15, 23, 30, 0.3393732492997199) 100%);
+}
+
+.play-btn {
+    background-color: transparent;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    cursor: pointer;
+}
+
+.play-btn img {
+    max-height: 30px;
+    height: 100%;
+}
+
+.img-banner {
+    height: 100%;
+}
+
+.img-banner img {
+    max-height: 500px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .amendedMargin {
+       margin-bottom: 750px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .amendedMargin {
+       margin-bottom: 450px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .amendedMargin {
+       margin-bottom: 350px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .amendedMargin {
+       margin-bottom: 250px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .amendedMargin {
+       margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .amendedMargin {
+       margin-bottom: 50px;
+    }
+}

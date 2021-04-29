@@ -1,0 +1,41 @@
+.flixCardDetail {
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: #050B11;
+    height: 100%;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: all 1 ease;
+    display: none;
+    font-size: 12px;
+    background: rgb(5, 11, 17);
+    background: linear-gradient(0deg, rgba(5, 11, 17, 1) 42%, rgba(5, 11, 17, 0.9668242296918768) 58%, rgba(5, 11, 17, 0) 100%);
+}
+
+.flixCardDetail .position-relative.desc {
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 0);
+}
+
+.car-link {
+    transition: all 1 ease;
+}
+
+.car-link:hover+.flixCardDetail {
+    display: block;
+    transition: all 1 ease;
+    opacity: 0;
+}
+
+.flixCardDetail:hover {
+    display: block;
+    transition: all 1s ease;
+    opacity: 1;
+}
