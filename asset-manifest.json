@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/flix-mania-rc-frontend/static/css/main.067aecbc.chunk.css",
-    "main.js": "/flix-mania-rc-frontend/static/js/main.67c2c81c.chunk.js",
-    "main.js.map": "/flix-mania-rc-frontend/static/js/main.67c2c81c.chunk.js.map",
+    "main.js": "/flix-mania-rc-frontend/static/js/main.749adce2.chunk.js",
+    "main.js.map": "/flix-mania-rc-frontend/static/js/main.749adce2.chunk.js.map",
     "runtime-main.js": "/flix-mania-rc-frontend/static/js/runtime-main.d06555d8.js",
     "runtime-main.js.map": "/flix-mania-rc-frontend/static/js/runtime-main.d06555d8.js.map",
     "static/css/2.9db01054.chunk.css": "/flix-mania-rc-frontend/static/css/2.9db01054.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.9db01054.chunk.css",
     "static/js/2.4d569abb.chunk.js",
     "static/css/main.067aecbc.chunk.css",
-    "static/js/main.67c2c81c.chunk.js"
+    "static/js/main.749adce2.chunk.js"
   ]
 }
