@@ -11,9 +11,9 @@ import Home from "../Home/Home";
 const Router = () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/flix-mania-rc-frontend/" component={Home} />
-    <Route exact path="/FlixDetails/:id" component={FlixDetails} />
-    <Route exact path="*" component={Home} />
+    <Route path="/flix-mania-rc-frontend/" component={Home} />
+    <Route path="/FlixDetails/:id" component={FlixDetails} />
+    <Route path="*" component={Home} />
   </Switch>
 );
 
