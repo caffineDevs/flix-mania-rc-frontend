@@ -13,7 +13,7 @@ const Router = () => (
     <Route exact path="/" component={Home} />
     <Route exact path="/flix-mania-rc-frontend/" component={Home} />
     <Route exact path="/FlixDetails/:id" component={FlixDetails} />
-    <Route exact path="**" component={Home} />
+    <Route exact path="*" component={Home} />
   </Switch>
 );
 
